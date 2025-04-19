@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/frontend",
+            "outputPath": "dist/frontend/browser",
             "baseHref": "/",
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -37,7 +37,6 @@
             ],
             "styles": [
             "node_modules/phosphor-icons/src/css/icons.css",
-            "node_modules/tailwindcss/tailwind.css",
             "src/styles.css"
             ],
             "scripts": []
